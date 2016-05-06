@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="dr seuss" type="boolean" value="false" -->
+<!-- TemplateParam name="rowling" type="boolean" value="false" -->
+<!-- TemplateParam name="lewis carroll" type="boolean" value="false" -->
+<!-- TemplateParam name="dav pilkey" type="boolean" value="false" -->
+<!-- TemplateParam name="jeff kinney" type="boolean" value="false" -->
+</head>
+
+<body>
+<h1>Children's Authors</h1>
+<p><a href="../index.html">Homepage</a></p>
+<p>&nbsp;</p>
+<ul>
+  <li><a href="../dr-seuss/index.html">Dr. Seuss</a>
+</li>
+  <!-- TemplateBeginIf cond="_document['dr seuss']" -->
+  <ul>
+    <li><a href="../dr-seuss/the-cat-in-the-hat.html">The Cat in the Hat</a></li>
+    <li><a href="../dr-seuss/how-the-grinch-stole-christmas.html">How the Grinch Stole Christmas</a>    </li>
+    <li><a href="../dr-seuss/green-eggs-and-ham.html">Green Eggs and Ham</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../j-k-rowling/index.html">J.K. Rowling</a>
+  </li>
+  <!-- TemplateBeginIf cond="_document['rowling']" -->
+  <ul>
+    <li><a href="../j-k-rowling/chamber-of-secrets.html">Harry Potter and the Chamber of Secrets</a></li>
+    <li><a href="../j-k-rowling/sorcerers-stone.html">Harry Potter and the Sorcerer's Stone</a>    </li>
+    <li><a href="../j-k-rowling/prisoner-of-azkaban.html">Harry Potter and the Prisoner of Azkaban</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../lewis-carroll/index.html">Lewis Carroll</a>
+  </li>
+  <!-- TemplateBeginIf cond="_document['lewis carroll']" -->
+  <ul>
+    <li><a href="../lewis-carroll/alice-in-wonderland.html">Alice In Wonderland</a></li>
+    <li><a href="../lewis-carroll/jabberwocky.html">Jabberwocky</a>    </li>
+    <li><a href="../lewis-carroll/through-the-looking-glass.html">Alice Through the Looking Glass</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../dav-pilkey/index.html">Dav Pilkey</a>
+  </li>
+  <!-- TemplateBeginIf cond="_document['dav pilkey']" -->
+  <ul>
+    <li><a href="../dav-pilkey/the-adventures-of-captain-underpants.html">The Adventure's of Captain Underpants</a></li>
+    <li><a href="../dav-pilkey/the-perilous-plot-of-professor-poopypants.html">Captain Underpants and the Perilous Plot of Professor Poopypants</a></li>
+    <li><a href="../dav-pilkey/tyrannical-retaliation-of-the-turbo-toilet.html">Captain Underpants and the Tyrannical Retaliation of the Turbo Toilet</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+  <li><a href="../jeff-kinney/index.html">Jeff Kinney</a>
+  </li>
+  <!-- TemplateBeginIf cond="_document['jeff kinney']" -->
+  <ul>
+    <li><a href="../jeff-kinney/diary-of-a-wimpy-kid.html">Dairy of a Wimpy Kid</a></li>
+    <li><a href="../jeff-kinney/rodrick-rules.html">Rodrick Rules</a>    </li>
+    <li><a href="../jeff-kinney/the-ugly-truth.html">The Ugly Truth</a>  </li>
+  </ul>
+  <!-- TemplateEndIf -->
+</ul>
+<!-- TemplateBeginEditable name="EditRegion3" --><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="EditRegion4" -->
+<p>&nbsp;</p>
+<!-- TemplateEndEditable -->
+</body>
+</html>
